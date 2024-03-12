@@ -194,7 +194,6 @@ header {
 .box {
     display: flex;
     justify-content: center;
-
 }
 
 .img-container {
@@ -203,7 +202,7 @@ header {
     gap: 16px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 15px;
     border-radius: 10px;
     width: 80%;
 
@@ -400,7 +399,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 8px;
     align-items: center;
     padding: 0 10px;
     height: 4rem;
@@ -409,13 +408,15 @@ header {
 
 .number h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 .number input {
     border: 1px solid black;
-    height: 2.5rem;
+    height: 2.3rem;
     border-radius: 7px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 100;
     padding: 0 10px;
     width: 100px;
@@ -423,9 +424,9 @@ header {
 }
 
 .calender {
-    margin-top: 18px;
+    margin-top: 12px;
     position: relative;
-    height: 53%;
+    height: 50%;
     width: 90%;
     display: flex;
     align-items: center;
@@ -458,7 +459,7 @@ header {
 }
 
 .calender h3 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     margin: 0 10px 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -474,10 +475,10 @@ header {
 }
 
 .event {
-    padding: 10px 30px;
+    padding: 6px 30px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 0;
+    margin: 15px 0;
 
 }
 
@@ -486,7 +487,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    height: 7%;
+    height: 8%;
 }
 
 .event-time span {
@@ -501,7 +502,7 @@ header {
 
 .confirm-btn {
     width: 80%;
-    margin-top: 15px;
+    margin: 15px 0;
 
 }
 
